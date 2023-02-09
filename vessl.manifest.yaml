@@ -1,0 +1,12 @@
+artifacts: {}
+model:
+  save_output: null
+  save_path: null
+  save_type: user-defined
+requirements:
+- torch
+runner:
+  save_path: vessl.runner.pkl
+  save_type: cloudpickle
+use_default: []
+version: v1
